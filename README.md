@@ -2,7 +2,7 @@
 
 > Controlled Multi-Model Evaluation Benchmark Comparing Frontier & Open-Weights LLMs across Reasoning, JSON Compliance, Cost & Latency.
 
-[![CI](https://github.com/user/llm-model-comparison-benchmark/actions/workflows/ci.yml/badge.svg)](https://github.com/user/llm-model-comparison-benchmark/actions/workflows/ci.yml)
+[![CI](https://github.com/master72o/llm-model-comparison-benchmark/actions/workflows/ci.yml/badge.svg)](https://github.com/master72o/llm-model-comparison-benchmark/actions/workflows/ci.yml)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -50,7 +50,7 @@ Accuracy Score (%)            JSON Compliance (%)              Pareto Cost / 10k
 
 ```bash
 # Clone repository
-git clone https://github.com/user/llm-model-comparison-benchmark.git
+git clone https://github.com/master72o/llm-model-comparison-benchmark.git
 cd llm-model-comparison-benchmark
 
 # Install in editable mode
@@ -121,6 +121,16 @@ llm-model-comparison-benchmark/
 ```
 
 ---
+
+
+---
+
+## 🔬 Benchmark Methodology & Results Provenance
+
+> [!NOTE]
+> **Provenance & Evaluation Scope**: The metrics reported in this repository reflect controlled reference benchmark runs executed across the standardized dataset in data/.
+> - **Execution Mode**: Evaluated deterministically with the automated pipeline using fixed seeds and schema validation.
+> - **Reproducibility**: Run pytest or the package CLI to re-compute all scores, metrics, and summary tables locally.
 
 ## License
 
